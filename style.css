@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 .container{
     width:100vw;
     height:100vh;
@@ -271,3 +273,59 @@ td{
     font-family: "Arbutus Slab", serif;
     color: #000;
 }
+.edu{
+    display: flex;
+
+}
+
+td .data{
+    perspective: 800px;
+    position: absolute;
+    
+    width:30vw;
+    overflow: hidden;
+    height: 150px;
+    background-color: #ffffff;
+    visibility: hidden;
+    transform: rotate3d(0, 1, 0, 90deg);
+    transition: 1s;
+}
+
+
+td .edur{
+    position: relative;
+    
+    visibility: hidden;
+}
+.edur:checked+label+.data
+{
+    transform: rotate3d(0, 1, 0, 0deg);
+    visibility:visible;
+}
+.line2{
+
+    color: #56344C;
+}
+.line3,.line4{
+    text-align: end;
+}
+
+td label{
+    position: relative;
+    top:150px;
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #56344C;
+    transition: .5s;
+    
+}
+
+.edur:checked + label{
+    width:25px;
+    height: 15px;
+    border-radius: 10px;
+    background-color: #666666;
+}
+
+
