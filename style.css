@@ -227,6 +227,47 @@ text-align: center;
     
     top:100vh;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 6rem;
+    gap:4rem;
+}
+.resume h1{
+    color: #000;
+    width: 100vw;
+    text-align: center;
+}
+
+.icn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #56344C;
+    padding: 15px;
+
+
+}
+td{
+    padding-left: 1.4rem;
+    line-height: 1.7;
+    color: #666666;
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: "Arbutus Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.info table{
+    width:30vw;
+}
+
+.resumehead{
+    display: flex;
+    gap:2rem;
+}
+.mainh{
+    padding-left: 0px;
+    font-size: 1.6rem;
+    font-family: "Arbutus Slab", serif;
+    color: #000;
 }
