@@ -370,14 +370,14 @@ td label{
 }
 .vecellsite{
     width:30vw;
-    height:400px;
+    height:30vw;
     background-image: url(images/ve\ cell.jpg);
     background-size: contain;
     transition: 1s;
 }
 .librarymanagement{
     width:30vw;
-    height:400px;
+    height:30vw;
     background-image: url(images/lib.jpg);
     background-size: contain;
     transition: 1s;
@@ -385,7 +385,7 @@ td label{
 
 .titmetablegen{
     width:30vw;
-    height:400px;
+    height:30vw;
     background-image: url(images/timetable.jpg);
     background-size: contain;
     transition: 1s;
@@ -460,17 +460,20 @@ td label{
 
 .contact{
     width: 100vw;
-    height:300px;
+    height:fit-content;
     background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 3rem;
+    gap: 2rem;
 
 }
 
 .insidecon{
+    align-self: start;
+    padding-left: 10rem;
+    padding-top: 1rem;
     display: flex;
     gap: 8rem;
     justify-content: center;
@@ -505,3 +508,78 @@ td label{
     transform: scale(1.03);
 }
 
+.contact_card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid #666666;
+    width:320px;
+    height:400px;
+}
+
+.top{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+    height:120px;
+    background-image: url(images/Contback.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+  
+}
+
+.dp{
+    box-sizing: content-box;
+    border: 4px solid white;
+    position: absolute;
+    margin-top: 70px;
+    height: 90px;
+    border-radius: 50%;
+    width: 90px;
+    background-color: #fff;
+    background-image: url(images/contactcard.jpg);
+    background-size: cover;
+}
+.information{
+    margin-top: 60px;
+}
+.ll1{
+    color: #56344C;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 24px;
+    line-height: 1;
+}
+.ll2{
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 30px;
+    color: #737373;
+    text-overflow: ellipsis;
+    font-family: "Arbutus Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.ll3{
+    font-size: 20px;
+    color: #845175;
+}
+.lll{
+    width:100%;
+    text-align: center;
+}
+.linkss{
+    margin-top: 40px;
+}
+.linkss a{
+    
+    color: #56344C;
+    font-size: 25px;
+}
+.linkss a:hover i{
+    color: #000;
+    transform: scale(1.03);
+}
+.mail{
+    margin-top: 10px; 
+}
