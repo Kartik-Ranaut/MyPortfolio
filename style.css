@@ -550,6 +550,11 @@ td label{
     background-color: #fff;
     background-image: url(images/contactcard.jpg);
     background-size: cover;
+    transition: 1s;
+}
+
+.dp:hover{
+    transform: scale(1.03);
 }
 .information{
     margin-top: 60px;
@@ -560,6 +565,9 @@ td label{
     background-color: transparent;
     font-size: 24px;
     line-height: 1;
+}
+a{
+    text-decoration: none;
 }
 .ll2{
     overflow: hidden;
@@ -598,7 +606,9 @@ td label{
     padding-bottom: 5px;
     border-bottom: 3px solid #56344C;
 }
-
+.lastline{
+    color: #737373;
+}
 
 @media(width<1050px){
     .resumehead{
