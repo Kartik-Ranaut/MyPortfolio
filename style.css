@@ -710,4 +710,7 @@ a{
     .links a i{
         font-size: .6rem;
     }
+    .det{
+        font-size: 1rem;
+    }
 }
