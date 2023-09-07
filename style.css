@@ -6,7 +6,7 @@
     
 }
 
-body{
+.container{
     animation: trans 1s;
 }
 @keyframes trans{
