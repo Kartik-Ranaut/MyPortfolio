@@ -3,7 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
+
+body{
+    animation: trans 1s;
+}
+@keyframes trans{
+    from{
+        transform:  translateY(200px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+} 
 
 .container{
     width:100vw;
