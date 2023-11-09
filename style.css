@@ -5,6 +5,10 @@
     scroll-behavior: smooth;
     
 }
+.lgo{
+    height:25px;
+    width: 20px;
+}
 
 .container{
     animation: trans 1s;
